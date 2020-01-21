@@ -88,37 +88,41 @@ NON FUNCTIONAL REQUIREMENTS
 1.	SYSTEM AVAILABLITY
 
 a.	The System must be available to users: 
-i.	on <all weekdays/363 days per year>
-j.	from <00:00> to <23:45>;
+  i.	on <all weekdays/363 days per year>
+  j.	from <00:00> to <23:45>;
 
 b.	The planned downtime for the System must not exceed 15 hours per rolling three-month period. The System is considered to be down if any user is unable to perform any normal System function and if this failure is attributed to any component of the System other than the workstation.
+
 c.	In the event of any software or hardware failure, it must be possible to restore the System (with inline synchronization) within no more than 03 hours.
 
 2.	PERFORMANCE AND SCALABILITY
-a.	The System must provide adequate response times for commonly performed functions under both standard and peak conditions like SOS Functionality.
 
-b.	The System must be able to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds regardless of the storage capacity or number of cases in the system. In this context, performing a search means returning a result list.  It does not include retrieving the records themselves.
+  a.	The System must provide adequate response times for commonly performed functions under both standard and peak conditions like SOS Functionality.
+
+  b.	The System must be able to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds regardless of the storage capacity or number of cases in the system. In this context, performing a search means returning a result list.  It does not include retrieving the records themselves.
 
 3.	USABLITY
-a.	The user interfaces should be designed to make them user-intuitive.
 
-b.	Making navigation self-descriptive: Navigation should be designed to help users understand where they are, where they have been and where they can go next
-c.	Minimizing navigation effort: The number of navigation steps needed to reach a certain piece of content should be minimized as long as different mental models, navigation strategies and tasks of the user are taken into account.  
+  a.	The user interfaces should be designed to make them user-intuitive.
 
-d.	Minimizing user errors:  Potential user errors as well as the effort needed to recover from errors should be minimized.
+  b.	Making navigation self-descriptive: Navigation should be designed to help users understand where they are, where they have been     and where they can go next
+  c.	Minimizing navigation effort: The number of navigation steps needed to reach a certain piece of content should be minimized as     long as different mental models, navigation strategies and tasks of the user are taken into account.  
 
-
-e.	Making user interfaces robust: User interfaces should be designed to be as robust as possible in the face of changing technology. This encompasses being able to present content containing newer technologies by older user agents as well as designing content to be usable with future technologies.
-
-f.	Text quality: The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability.
+  d.	Minimizing user errors:  Potential user errors as well as the effort needed to recover from errors should be minimized.
 
 
-g.	Linking back to the home page or landmark pages: Each page should contain a link leading to the home page of the application or to a landmark page that is easy to recognize for the user.
+  e.	Making user interfaces robust: User interfaces should be designed to be as robust as possible in the face of changing technology.   This encompasses being able to present content containing newer technologies by older user agents as well as designing content to be   usable with future technologies.
+
+  f.	Text quality: The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede         readability.
+
+
+  g.	Linking back to the home page or landmark pages: Each page should contain a link leading to the home page of the application or     to a landmark page that is easy to recognize for the user.
 
 4.	SECURITY
-a.	Database cannot be altered by any user apart from the administrator.
 
-b.	Privacy of the user should be maintained.
+  a.	Database cannot be altered by any user apart from the administrator.
+
+  b.	Privacy of the user should be maintained.
 
 
 
